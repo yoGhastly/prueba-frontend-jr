@@ -3,7 +3,7 @@
     <RouterLink to="/" class="text-gray-500 underline self-start">Go Back</RouterLink>
   </header>
   <section class="flex flex-col md:flex-row h-screen">
-    <picture class="relative block rounded-none w-40 md:w-1/2 h-full aspect-square group">
+    <picture class="relative block rounded-none w-40 md:w-1/2 self-center h-full aspect-square group">
       <img :src="product.imageUrl" :alt="product.name"
         class="object-contain w-full rounded-none h-full pointer-events-none group-hover:scale-100 transition delay-0" />
     </picture>
