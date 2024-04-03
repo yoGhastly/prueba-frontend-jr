@@ -44,7 +44,7 @@
 </template>
 
 <script setup lang="ts">
-import { defineComponent, ref, onMounted, watch } from "vue";
+import { defineComponent, ref, watch } from "vue";
 import { useRouter } from "vue-router";
 import { Product } from "../types/index.ts";
 

@@ -4,7 +4,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, onMounted, ref } from "vue";
+import { defineComponent } from "vue";
 import { RouterView } from "vue-router";
 import ThreeItemGrid from "./components/grid/three-grid.vue";
 import Navbar from "./components/layout/navbar.vue";
