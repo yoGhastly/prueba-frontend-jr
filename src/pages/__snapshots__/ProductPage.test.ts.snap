@@ -1,0 +1,19 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Product Page > it should do match with snapshot 1`] = `
+"<header class="flex justify-start items-start px-6">
+  <router-link-stub to="/" replace="false" custom="false" ariacurrentvalue="page" class="text-gray-500 underline self-start"></router-link-stub>
+</header>
+<section class="flex h-screen">
+  <picture class="relative block rounded-none w-1/2 h-full aspect-square group"><img class="object-contain w-full rounded-none h-full pointer-events-none group-hover:scale-100 transition delay-0"></picture>
+  <div class="w-full h-full px-4 flex flex-col justify-center items-center gap-8"><button class="bg-gray-200 rounded-sm px-2 py-1 font-semibold uppercase flex justify-center items-center drop-shadow-sm"> new </button>
+    <div class="flex flex-col items-center">
+      <h1 class="font-bold uppercase"></h1>
+      <p class="text-sm font-semibold" data-test-id="price-p"><span></span></p>
+    </div>
+    <size-selector-stub sizes=""></size-selector-stub><button class="uppercase px-5 py-3 rounded-full bg-black text-white"> Add to bag </button>
+    <hr class="w-full h-[0.5px] bg-gray-400">
+    <accordion-stub items=""></accordion-stub>
+  </div>
+</section>"
+`;
