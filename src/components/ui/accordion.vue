@@ -47,9 +47,6 @@ defineComponent({
 </script>
 
 <style scoped>
-.accordion {
-  width: 100%;
-}
 
 .rotate-180 {
   transform: rotate(180deg);
